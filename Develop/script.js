@@ -21,7 +21,13 @@ function generatePassword() {
     } else {
       alert("Password length set to " + length);
     }
-  var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()-_=+[{]}|;:'\"\,\<\.>/?";
+  var characters = "";//"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()-_=+[{]}|;:'\"\,\<\.>/?"
+  var lowercase = confirm("Use lowercase letters in password? Ok for yes cancel for no.");
+  var uppercase = confirm("Use uppercase letters in password? Ok for yes cancel for no.");
+  var numbers = confirm("Use numbers in password? Ok for yes cancel for no.");
+  var specialChar = confirm ("Use special characters in password (ie. $,\ %,\ '\)? Ok for yes cancel for no.")
+
+
   var randomPassword = '';
   for (i=0; i<length; ++i) {
     var random = Math.floor(Math.random() * characters.length)
