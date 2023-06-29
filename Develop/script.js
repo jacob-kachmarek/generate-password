@@ -10,8 +10,12 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+  
+  setTimeout(function() {
+    alert("Click generate to try again");
+  }, 900);
 }
+
 
 function generatePassword() {
   var length = prompt("How many characters long?");
