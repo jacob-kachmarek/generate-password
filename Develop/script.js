@@ -23,7 +23,11 @@ function generatePassword() {
     }
   var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()-_=+[{]}|;:'\"\,\<\.>/?";
   var randomPassword = '';
-
+  for (i=0; i<length; ++i) {
+    var random = Math.floor(Math.random() * characters.length)
+    randomPassword += characters.charAt(random);
+  }
+  return randomPassword;
 }
 
 
