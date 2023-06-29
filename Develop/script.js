@@ -17,10 +17,13 @@ function generatePassword() {
   var length = prompt("How many characters long?");
     if ( length < 8 || length > 128 ) {
       alert("Password must be between 8 and 128 characters long, refresh the page and start over.");
-      return "try again";
+      return "try again.";
     } else {
       alert("Password length set to " + length);
     }
+  var characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()-_=+[{]}|;:'\"\,\<\.>/?";
+  var randomPassword = '';
+
 }
 
 
