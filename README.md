@@ -10,7 +10,7 @@ This is a password generator. It randomly generates a password based on the user
 N/A 
 
 ## Usage 
-This site is very simple to navigate. Use the navigation bar in the top right on a desktop or laptop and just right at the top on a smartphone. Clicking the links will direct you to the associated section of the webpage. 
+Simply click the generate password button and it will prompt you to do the rest. 
 
 ## Learning Points 
 N/A
