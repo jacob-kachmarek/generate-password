@@ -4,7 +4,7 @@
 N/A
   
 ## Description 
-This is a password generator. It randomly generates a password based on the users desired length and what characters they would like to include. You can use the generator [here.]()<br> Here is a picture of the deployed website.<br>![Picture of website](./Assets/GeneratePasswordSite.png)
+This is a password generator. It randomly generates a password based on the users desired length and what characters they would like to include. You can use the generator [here.](https://jacob-kachmarek.github.io/generate-password/)<br> Here is a picture of the deployed website.<br>![Picture of website](./Assets/GeneratePasswordSite.png)
 
 ## Installation
 N/A 
